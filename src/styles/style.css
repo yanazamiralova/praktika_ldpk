@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid #BBAF41;
+}
+header ul {
+  list-style-type: none;
+  font-size: 30px;
+  display: flex;
+  float: right;
+  margin-top: 70px;
+}
+header ul a {
+  text-decoration: none;
+  color: #959C93;
+  margin-left: 130px;
+}
+header img {
+  float: left;
+  width: 250px;
+  height: 166.667px;
+}
+
+.zalogo {
+  background-color: rgba(76, 144, 34, 0.7803921569);
+  width: 1915px;
+  height: 134px;
+}
+.zalogo h1 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
