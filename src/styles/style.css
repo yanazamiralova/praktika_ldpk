@@ -126,4 +126,34 @@
 .footer .grid-5 img {
   width: 250px;
   height: 166.667px;
+}
+
+.about {
+  width: 1440px;
+  height: 224px;
+  font-size: 30px;
+  margin-top: 236px;
+}
+.about span {
+  font-weight: bold;
+}
+
+.office {
+  font-size: 30px;
+  margin-top: 238px;
+}
+.office h1 {
+  color: #000;
+  font-size: 35px;
+  margin-bottom: 64px;
+}
+
+.vacancy {
+  margin-top: 297px;
+  font-size: 30px;
+  margin-bottom: 370px;
+}
+.vacancy h1 {
+  margin-bottom: 198px;
+  font-size: 35px;
 }/*# sourceMappingURL=style.css.map */
