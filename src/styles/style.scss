@@ -158,6 +158,7 @@ footer {
 
 }
 
+//О ФИРМЕ
 .about {
     width: 1440px;
     height: 224px;
@@ -192,6 +193,7 @@ footer {
 
 }
 
+//КАТАЛОГ
 .categories {
     float: left;
     margin-top: 153px;
@@ -214,9 +216,10 @@ footer {
 }
 
 .categories-img {
-    img {
-        margin-left: 50px;
-    }
+    display: grid;
+    grid-template-columns: repeat(4, 290px);
+    grid-template-rows: repeat(1, 300px);
+    gap: 50px;
 }
 
 .stoucks {
@@ -814,7 +817,7 @@ footer {
         p {
             color: white;
             padding-top: 16px;
-            font-size: 16px;
+            font-size: 12px;
         }
 
         img {
@@ -826,6 +829,7 @@ footer {
 
 }
 
+//главная
 @media (min-width:768px) and (max-width:1024px) {
     .wrapper {
         width: 1000px;
@@ -1107,4 +1111,191 @@ footer {
     }
 
 }
+
+//каталог
+@media (min-width:768px) and (max-width:1024px) {
+    .categories {
+        float: left;
+        margin-top: 153px;
+
+        .button {
+            margin: 0;
+            margin-bottom: 60px;
+            width: 376px;
+            height: 63px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            display: flex;
+            font-size: 28px;
+
+            img {
+                width: 46px;
+                height: 46px;
+            }
+        }
+    }
+
+    .categories-img {
+        display: grid;
+        grid-template-columns: repeat(3, 290px);
+        grid-template-rows: repeat(2, 300px);
+        gap: 50px;
+    }
+
+    .stoucks {
+        margin-top: 127px;
+
+        h1 {
+            color: #000;
+            font-size: 35px;
+        }
+    }
+
+
+    .stoucks-product__elem {
+        margin-top: 119px;
+        display: grid;
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: repeat(3, 666px);
+        gap: 10px;
+    }
+
+    .question {
+        width: 984px;
+        height: 204px;
+        flex-shrink: 0;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #8A8686;
+        display: flex;
+        padding-top: 76px;
+        padding-left: 36px;
+        margin: 0;
+
+        span {
+            font-size: 20px;
+            color: #8A8686;
+        }
+
+        .question-text {
+            margin-left: 70px;
+        }
+
+        .question-black {
+            width: 251px;
+            height: 48px;
+            background-color: #454242;
+            display: flex;
+            margin: 0;
+
+
+            p {
+                color: white;
+                padding-top: 16px;
+                font-size: 11px;
+            }
+
+            img {
+                width: 39px;
+                height: 39px;
+                margin-left: 21px;
+            }
+        }
+
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .categories {
+        float: left;
+        margin-top: 153px;
+
+
+        .button {
+            margin: 0;
+            margin-bottom: 60px;
+            width: 323px;
+            height: 50px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            display: flex;
+            font-size: 20px;
+
+            img {
+                width: 46px;
+                height: 46px;
+            }
+        }
+    }
+
+    .categories-img {
+        display: grid;
+        grid-template-columns: repeat(2, 290px);
+        grid-template-rows: repeat(2, 300px);
+        gap: 50px;
+        margin-left: 50px;
+    }
+
+    .stoucks {
+        margin-top: 127px;
+
+        h1 {
+            color: #000;
+            font-size: 35px;
+        }
+    }
+
+
+    .stoucks-product__elem {
+        margin-top: 119px;
+        display: grid;
+        grid-template-columns: repeat(1, 500px);
+        grid-template-rows: repeat(6, 666px);
+        gap: 10px;
+        margin-left: 154px;
+    }
+
+    .question {
+        width: 736px;
+        height: 207px;
+        flex-shrink: 0;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #8A8686;
+        display: flex;
+        padding-top: 70px;
+        margin: 0;
+
+        span {
+            font-size: 20px;
+            color: #8A8686;
+        }
+
+        .question-text {
+            margin-left: 17px;
+        }
+
+        .question-black {
+            width: 251px;
+            height: 48px;
+            background-color: #454242;
+            display: flex;
+            margin: 0;
+
+
+            p {
+                color: white;
+                padding-top: 16px;
+                font-size: 11px;
+            }
+
+            img {
+                width: 18px;
+                height: 34px;
+                margin-left: 14px;
+            }
+        }
+
+    }
+}
+
+
 
