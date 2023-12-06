@@ -1299,3 +1299,73 @@ footer {
 
 
 
+//О фирме
+@media(min-width:768px) and (max-width:1024px) {
+    .about {
+        width: 984px;
+        height: 381px;
+        font-size: 30px;
+        margin-top: 121px;
+
+
+    }
+
+    .office {
+        font-size: 30px;
+        margin-top: 150px;
+        width: 832px;
+        height: 516px;
+
+        h1 {
+            color: #000;
+            font-size: 35px;
+            margin-bottom: 64px;
+        }
+    }
+
+    .vacancy {
+        margin-top: 799px;
+        font-size: 30px;
+        margin-bottom: 370px;
+
+        h1 {
+            margin-bottom: 198px;
+            font-size: 35px;
+        }
+
+    }
+}
+
+@media(min-width:480px) and (max-width:758px) {
+    .about {
+        width: 727px;
+        height: 398px;
+        font-size: 30px;
+        margin-top: 145px;
+    }
+
+    .office {
+        font-size: 30px;
+        margin-top: 150px;
+        width: 615px;
+        height: 516px;
+
+        h1 {
+            color: #000;
+            font-size: 35px;
+            margin-bottom: 64px;
+        }
+    }
+
+    .vacancy {
+        margin-top: 799px;
+        font-size: 30px;
+        margin-bottom: 370px;
+
+        h1 {
+            margin-bottom: 198px;
+            font-size: 35px;
+        }
+
+    }
+}
