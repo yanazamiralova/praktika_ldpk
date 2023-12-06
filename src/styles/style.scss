@@ -212,11 +212,13 @@ footer {
         }
     }
 }
-.categories-img{
-    img{
+
+.categories-img {
+    img {
         margin-left: 50px;
     }
 }
+
 .stoucks {
     margin-top: 127px;
 
@@ -789,22 +791,25 @@ footer {
     display: flex;
     padding-top: 76px;
     padding-left: 36px;
-    span{
+
+    span {
         font-size: 20px;
         color: #8A8686;
-        
-        
+
+
     }
-    .question-text{
+
+    .question-text {
         margin-left: 70px;
     }
+
     .question-black {
         width: 251px;
         height: 48px;
         background-color: #454242;
         display: flex;
         margin: 0;
-        
+
 
         p {
             color: white;
@@ -820,3 +825,286 @@ footer {
     }
 
 }
+
+@media (min-width:768px) and (max-width:1024px) {
+    .wrapper {
+        width: 1000px;
+    }
+
+    .header {
+        overflow: hidden;
+        margin-bottom: 15px;
+
+        ul {
+            float: right;
+            font-size: 27px;
+            display: flex;
+            float: right;
+            margin-top: 84px;
+            margin-bottom: 64px;
+
+            a {
+                text-decoration: none;
+                color: #959C93;
+                margin-left: 130px;
+
+            }
+        }
+
+        img {
+            float: left;
+            width: 219px;
+            height: 146px;
+            flex-shrink: 0;
+            margin-top: 25px;
+        }
+    }
+
+    .zalogo {
+        width: 100%;
+
+        h1 {
+            font-size: 50px;
+            padding-top: 37px;
+            padding-left: 20px;
+        }
+    }
+
+    .praic-lict {
+        margin-top: 120px;
+
+        h1 {
+            font-size: 30px;
+            line-height: normal;
+            margin-bottom: 98px;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 974px;
+            font-size: 25px;
+            text-align: center;
+
+            th {
+                height: 78px;
+            }
+
+            td {
+                height: 78px;
+            }
+        }
+    }
+
+    .partners {
+        margin-top: 277px;
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 75px;
+        }
+    }
+
+    .partners-img {
+        display: grid;
+        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: repeat(4, 250px);
+        gap: 7px;
+
+        img {
+            height: 85px;
+        }
+    }
+
+    footer {
+        width: 1440px;
+        margin-top: 154px;
+        border-top: 1px solid #BBAF41;
+    }
+
+    .footer {
+        font-size: 30px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 300px);
+        gap: 4px;
+        margin-left: 0px;
+
+        ul {
+            list-style-type: none;
+            margin-top: 70px;
+            color: #787878;
+
+            li {
+                text-decoration: none;
+
+            }
+
+            li:nth-child(1) {
+                margin-bottom: 40px;
+            }
+        }
+
+        .grid-4 {
+            width: 231px;
+            height: 99px;
+            margin-top: 56px;
+        }
+
+        .grid-5 {
+            color: #397126;
+            font-size: 25px;
+            line-height: normal;
+            font-weight: bolder;
+
+            img {
+                width: 250px;
+                height: 166.667px;
+            }
+        }
+
+    }
+
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .wrapper {
+        width: 728px;
+    }
+
+    .header {
+        overflow: hidden;
+        margin-bottom: 15px;
+
+        ul {
+            float: right;
+            font-size: 27px;
+            display: flex;
+            float: right;
+            margin-top: 84px;
+            margin-bottom: 64px;
+
+            a {
+                text-decoration: none;
+                color: #959C93;
+                margin-left: 78px;
+
+            }
+        }
+
+        img {
+            float: left;
+            width: 135px;
+            height: 90px;
+            flex-shrink: 0;
+            margin-top: 25px;
+        }
+    }
+
+    .zalogo {
+        width: 100%;
+        height: 110px;
+
+        h1 {
+            font-size: 45px;
+            padding-top: 30px;
+            padding-left: 15px;
+        }
+    }
+
+    .praic-lict {
+        margin-top: 127px;
+
+        h1 {
+            font-size: 30px;
+            line-height: normal;
+            margin-bottom: 98px;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 747px;
+            font-size: 20px;
+            text-align: center;
+
+            th {
+                height: 78px;
+            }
+
+            td {
+                height: 78px;
+            }
+        }
+    }
+
+    .partners {
+        margin-top: 272px;
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 54px;
+        }
+    }
+
+    .partners-img {
+        display: grid;
+        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: repeat(4, 180px);
+        gap: 5px;
+
+        img {
+            height: 85px;
+        }
+    }
+
+    footer {
+        width: 1440px;
+        margin-top: 154px;
+    }
+
+    .footer {
+        font-size: 30px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 300px);
+        gap: 4px;
+        margin-left: 0px;
+
+        ul {
+            list-style-type: none;
+            margin-top: 70px;
+            color: #787878;
+
+            li {
+                text-decoration: none;
+
+            }
+
+            li:nth-child(1) {
+                margin-bottom: 40px;
+            }
+        }
+
+        .grid-4 {
+            width: 231px;
+            height: 99px;
+            margin-top: 56px;
+        }
+
+        .grid-5 {
+            color: #397126;
+            font-size: 25px;
+            line-height: normal;
+            font-weight: bolder;
+
+            img {
+                width: 250px;
+                height: 166.667px;
+            }
+        }
+
+    }
+
+}
+
